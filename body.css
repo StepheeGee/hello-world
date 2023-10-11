@@ -1,49 +1,93 @@
 
 .body{
+  background-color: #C0D6DF;
   padding-left: 100px;
-  padding-right: 200px;
+  padding-right: 100px;
 }
 
 .order-grid{
-  padding-top: 230px;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-top: 130px;
+  padding-left: 50px;
+  padding-right: 200px;
   display: grid;
   grid-template-columns: 2fr 200px;
-  column-gap: 150px;
+  column-gap: 90px;
 }
 
 .order-drink-container{
-  column-gap: 30px;
-  background-color: brown;
-  row-gap: 40px;
+  column-gap: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.order-left-drink{
+  width: 390px;
+  height: 250px;
+  border-radius: 45px;
+  box-shadow: 8px 8px 8px #C0D6DF;
+}
+.order-right-drink{
+  width: 390px;
+  height: 250px;
+  border-radius: 45px;
+  box-shadow: 8px 8px 8px #C0D6DF;
 }
 
 .order-button-container{
   display: grid;
   grid-template-rows: 1fr 1fr;
-  background-color: blue;
 }
 
 
-.order-button{
-  margin-top: 10px;
-  margin-bottom: 10px;
+.order-button, .sign-up-button {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-radius: 20px;
+  border-style: none;
+  background-color: #d4605a;
+  color: #ffffff;
 }
 
-.sign-up-button{
-  margin-top: 10px;
-  margin-bottom: 10px;
+.mission{
+  letter-spacing: 3px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 800 ;
 }
 
 .mission-grid{
   margin-top: 20px;
   text-align: center;
   border-style: solid;
-  border-color: rgb(207, 207, 207);
+  border-color: #d4605a;
+  border-width: 4px;
+  box-shadow: 3px 5px 5px #4F6D7A;
+  color: #1e4352;
 }
 
 .picture-grid{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 10px;
+  text-align: center;
+  color: #4a1818;
 }
+
+.favorites{
+  text-align: center;
+  border-style: solid;
+  background-color: #C0D6DF;
+  border-color: #C0D6DF;
+  box-shadow: 0px 5px 2px #C0D6DF;
+  border-width: 3px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #4F6D7A;
+  font-weight: 200;
+}
+
+/* change background color to website */
+/* change text color */
+/* channge border colors */
+/* insert photos */
+/* coolors.co for hex code # then six digit code */
+/* css-tricks.com */

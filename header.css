@@ -4,10 +4,18 @@
   left: 0;
   right: 0;
   z-index: 100;
+  background-color: #4F6D7A;
 }
+/* My header is fucking up */
 
 .website-name{
   text-align: center;
+}
+
+.cart-icon{
+  float: right;
+  padding-right: 18px;
+  padding-top: 10px;
 }
 
 .header-grid{
@@ -16,6 +24,13 @@
   justify-content: center;
   column-gap: 30px;
   height: 60px;
+  padding-top: 15px;
+}
+
+.logo-header{
+  height: 85px;
+  width: 350px;
+  border-radius: 30px;
 }
 
 .left-section{
@@ -25,15 +40,17 @@
 .middle-section{
   flex: 2;
   text-align: center;
-  padding-top: 20px;
+  padding-top: 10px;
   padding-bottom: 10px;
   word-spacing: 80px;
   border-style: solid;
-  border-color: lightgrey;
+  border-color: #C0D6DF;
   border-bottom-width: 1px;
+  margin-top: 20px;
+  color: #C0D6DF;
 }
 
 .right-section{
   width: 100px;
-  background-color: red;
+  margin-right: 10px;
 }
