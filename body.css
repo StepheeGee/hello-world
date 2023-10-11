@@ -1,0 +1,28 @@
+
+.body{
+  padding-left: 96px;
+  padding-right: 24px;}
+
+.order-grid{
+  padding-top: 200px;
+  display: grid;
+  grid-template-columns: 1fr 200px;
+}
+
+.order-button-container{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.order-button{
+  margin-bottom: 50px;
+}
+
+.pick-up-button{
+  margin-bottom: 50px;
+}
+
+.picture-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
