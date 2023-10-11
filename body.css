@@ -1,25 +1,46 @@
 
 .body{
-  padding-left: 96px;
-  padding-right: 24px;}
+  padding-left: 100px;
+  padding-right: 200px;
+}
 
 .order-grid{
-  padding-top: 200px;
+  padding-top: 230px;
+  padding-left: 100px;
+  padding-right: 100px;
   display: grid;
-  grid-template-columns: 1fr 200px;
+  grid-template-columns: 2fr 200px;
+  column-gap: 150px;
+}
+
+.order-drink-container{
+  column-gap: 30px;
+  background-color: brown;
+  row-gap: 40px;
 }
 
 .order-button-container{
   display: grid;
   grid-template-rows: 1fr 1fr;
+  background-color: blue;
 }
+
 
 .order-button{
-  margin-bottom: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-.pick-up-button{
-  margin-bottom: 50px;
+.sign-up-button{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.mission-grid{
+  margin-top: 20px;
+  text-align: center;
+  border-style: solid;
+  border-color: rgb(207, 207, 207);
 }
 
 .picture-grid{

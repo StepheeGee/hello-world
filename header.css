@@ -4,31 +4,33 @@
   left: 0;
   right: 0;
   z-index: 100;
- 
-  background-color: white;
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  border-bottom-color: rgb(230, 224, 224);
 }
 
 .website-name{
+  text-align: center;
 }
 
 .header-grid{
   display: flex;
   flex-direction: row;
   justify-content: center;
+  column-gap: 30px;
+  height: 60px;
 }
 
 .left-section{
   flex: 1;
-  background-color: yellow;
 }
 
 .middle-section{
-  align-items: center;
   flex: 2;
-  background-color: blueviolet;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  word-spacing: 80px;
+  border-style: solid;
+  border-color: lightgrey;
+  border-bottom-width: 1px;
 }
 
 .right-section{
