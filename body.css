@@ -38,30 +38,50 @@
   grid-template-rows: 1fr 1fr;
 }
 
-
-.order-button, .sign-up-button {
-  margin-top: 40px;
-  margin-bottom: 40px;
+.order-button{
+  margin-top: 80px;
+  margin-bottom: 10px;
   border-radius: 20px;
   border-style: none;
   background-color: #d4605a;
   color: #ffffff;
 }
 
+.sign-up-button {
+  margin-top: 10px;
+  margin-bottom: 80px;
+  border-radius: 20px;
+  border-style: none;
+  background-color: #d4605a;
+  color: #ffffff;
+}
+
+
 .mission{
   letter-spacing: 3px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 800 ;
+  box-shadow: 0px 3px 3px 3px#4F6D7A;
+
+}
+
+.mission-content{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 300;
+  align-content: justify;
+  padding-left: 10px;
+  padding-right: 10px;
+
 }
 
 .mission-grid{
   margin-top: 20px;
-  text-align: center;
   border-style: solid;
   border-color: #d4605a;
   border-width: 4px;
   box-shadow: 3px 5px 5px #4F6D7A;
   color: #1e4352;
+  text-align: center;
 }
 
 .picture-grid{
@@ -69,7 +89,13 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   column-gap: 10px;
   text-align: center;
-  color: #4a1818;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+}
+
+.one, .two, .three, .four{
+  width: 300px;
+  border-radius: 5px;
 }
 
 .favorites{
@@ -83,6 +109,9 @@
   padding-bottom: 5px;
   color: #4F6D7A;
   font-weight: 200;
+  letter-spacing: 1px;
+  font-size: 18px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 /* change background color to website */
