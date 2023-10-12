@@ -47,8 +47,11 @@
   border-color: #C0D6DF;
   border-bottom-width: 1px;
   margin-top: 20px;
-  color: #C0D6DF;
 }
+
+a {  text-decoration: none; 
+      color: #C0D6DF;
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
 
 .right-section{
   width: 100px;
