@@ -8,14 +8,14 @@
 }
 /* My header is fucking up */
 
-.website-name{
-  text-align: center;
-}
+
+
 
 .cart-icon{
   float: right;
-  padding-right: 18px;
-  padding-top: 10px;
+  padding-right: 25px;
+  padding-top: 20px;
+  height: 35px;
 }
 
 .header-grid{
@@ -42,7 +42,7 @@
   text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
-  word-spacing: 80px;
+  word-spacing: 100px;
   border-style: solid;
   border-color: #C0D6DF;
   border-bottom-width: 1px;
@@ -53,7 +53,12 @@ a {  text-decoration: none;
       color: #C0D6DF;
       font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
 
-.right-section{
-  width: 100px;
-  margin-right: 10px;
-}
+      .warm a {
+        color: rgb(242, 194, 164);}
+      
+      .cool a {
+        color: rgb(171, 175, 232);
+
+
+
+

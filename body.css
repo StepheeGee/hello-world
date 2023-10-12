@@ -1,8 +1,7 @@
 
 .body{
   background-color: #C0D6DF;
-  padding-left: 100px;
-  padding-right: 100px;
+
 }
 
 .order-grid{
@@ -45,6 +44,8 @@
   border-style: none;
   background-color: #d4605a;
   color: #ffffff;
+  box-shadow: 0px 3px 2px 0px #6b3131;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .sign-up-button {
@@ -54,6 +55,8 @@
   border-style: none;
   background-color: #d4605a;
   color: #ffffff;
+  box-shadow: 0px 3px 2px 0px #6b3131;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
@@ -61,7 +64,7 @@
   letter-spacing: 3px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 800 ;
-  box-shadow: 0px 3px 3px 3px#4F6D7A;
+  box-shadow: 0px 4px 7px 0px#4F6D7A;
 
 }
 
@@ -114,9 +117,3 @@
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-/* change background color to website */
-/* change text color */
-/* channge border colors */
-/* insert photos */
-/* coolors.co for hex code # then six digit code */
-/* css-tricks.com */

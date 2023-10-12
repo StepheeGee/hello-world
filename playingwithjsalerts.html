@@ -1,0 +1,26 @@
+<script>
+
+  function getUserInfo() {
+    const userName = prompt("Hi! What is your name?");
+    if (userName) {
+      return userName;
+    } else {
+      return "User";
+    }}
+
+
+  function showConfirmation() {
+  const userName = getUserInfo();
+  const userResponse = confirm(`Welcome ${userName}... Are you interested in joining our 7-day detox challenge?`);
+
+     if (userResponse) {
+        alert("Great! Let's get started on the 7-day detox challenge.");
+
+      } else {
+  
+        const cancelConfirmation = confirm(`Are you sure you want to cancel?`);
+
+      if (cancelConfirmation) {window.location.href = "https://stepheegee.github.io/hello-world"; }
+  
+      }}showConfirmation();
+</script>

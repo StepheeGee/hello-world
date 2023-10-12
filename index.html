@@ -10,37 +10,24 @@
 </head>
 
 <body>
-  <script>
-
-    function getUserInfo() {
-      const userName = prompt("Hi! What is your name?");
-      if (userName) {
-        return userName;
-      } else {
-        return "User";
-      }}
-
-
-    function showConfirmation() {
-    const userName = getUserInfo();
-    const userResponse = confirm(`Welcome ${userName}... Are you interested in joining our 7-day detox challenge?`);
-
-       if (userResponse) {
-          alert("Great! Let's get started on the 7-day detox challenge.");
   
-        } else {
-    
-          const cancelConfirmation = confirm(`Are you sure you want to cancel?`);
-
-        if (cancelConfirmation) {window.location.href = "https://stepheegee.github.io/hello-world"; }
-    
-        }}showConfirmation();
-  </script>
 
 <header class="header">
-
+  
+  <script>
+    const temperature = prompt('Pick a temperature: Type "warm" or "cool"');
+  
+    if (temperature) {
+      const bodyElement = document.body;
+      bodyElement.classList.add(temperature.toLowerCase());
+    } else {
+      alert('No temperature selected.');
+    }
+  </script>
+  
 
   <div class="header-grid">
+    
     <div class="left-section">
       <img 
         class="logo-header"
@@ -48,11 +35,31 @@
         <!--Need source for the logo  -->
     </div>
 
+
+    <script>
+      function displaySaleNotice() {
+  
+        const userName = prompt('Welcome to Raw Culture! What is your name?', '');
+    
+        let saleNotice;
+        if (userName) {
+          saleNotice = `${userName}, Hurry! 24-Hour Sale - Get 20% off on all items!`;
+        } else {
+          saleNotice = 'Hurry! 24-Hour Sale - Get 20% off on all items!';
+        }
+    
+        document.write(`<p>${saleNotice}</p>`);
+      }
+  
+      displaySaleNotice();
+    </script>
+
+
     <nav class="middle-section">
       <a href="">Home</a>
       <a href="">Natalie</a>
       <a href="">Products</a>
-       <a href="">Contact</a>
+      <a href="">Contact</a>
         <!-- NEED links for nav bar -->
     </nav>
 
@@ -60,11 +67,12 @@
       <div class="cart-icon-container">
         <img 
           class="cart-icon"
-          src="https://placehold.co/50">
+          src="Photos/cart.png">
       </div>
     </div>
   </div>
   </header>
+
 
     <div class="order-grid">
       <div class="order-drink-container">
@@ -81,6 +89,15 @@
     </div>
 
     <div class="mission-grid">
+        
+        <script>
+
+         document.write("<p>Welcome to Raw Culture!</p>");
+
+        </script>
+
+
+
       <h2 class="mission">Your Health is Our Business</h2>
       <p class="mission-content">At Raw Culture, we've taken the concept of fresh pressed juice to a whole new level, blending the power of medicinal properties with irresistibly delicious flavors. 
         Our mission is simple: to make wellness a treat for your taste buds. Each sip of our handcrafted, fresh pressed juices is a sip towards a healthier you. We carefully select and blend organic, nutrient-rich fruits, vegetables, and herbs that are known for their medicinal benefits. From immune-boosting blends to digestion-soothing elixirs, our juices are designed to nurture your body and mind.</p>
@@ -116,17 +133,12 @@
     </div>
 
 
-
-
 <footer>
   <div class="copyright">
       &copy; 2023 Stephee Gee. All Rights Reserved.
   </div>
-  <div class="social-icons">
-      <a href="https://www.facebook.com"><img src="facebook-icon.png"></a>
-      <a href="https://twitter.com"><img src="twitter-icon.png"></a>
-      <a href="https://www.instagram.com"><img src="instagram-icon.png"></a>
-  </div>
+
+  
 </footer>
   
 </body>
