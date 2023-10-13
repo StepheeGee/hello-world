@@ -10,20 +10,8 @@
 </head>
 
 <body>
-  
 
 <header class="header">
-  
-  <script>
-    const temperature = prompt('Pick a temperature: Type "warm" or "cool"');
-  
-    if (temperature) {
-      const bodyElement = document.body;
-      bodyElement.classList.add(temperature.toLowerCase());
-    } else {
-      alert('No temperature selected.');
-    }
-  </script>
   
 
   <div class="header-grid">
@@ -34,26 +22,6 @@
         src="Photos/logo.jpeg">
         <!--Need source for the logo  -->
     </div>
-
-
-    <script>
-      function displaySaleNotice() {
-  
-        const userName = prompt('Welcome to Raw Culture! What is your name?', '');
-    
-        let saleNotice;
-        if (userName) {
-          saleNotice = `${userName}, Hurry! 24-Hour Sale - Get 20% off on all items!`;
-        } else {
-          saleNotice = 'Hurry! 24-Hour Sale - Get 20% off on all items!';
-        }
-    
-        document.write(`<p>${saleNotice}</p>`);
-      }
-  
-      displaySaleNotice();
-    </script>
-
 
     <nav class="middle-section">
       <a href="">Home</a>
@@ -123,14 +91,15 @@
       </div>
     </div>
 
-
+    <script src="main.js"></script>
 <footer>
   <div class="copyright">
       &copy; 2023 Stephee Gee. All Rights Reserved.
   </div>
 
+
   
 </footer>
-  
+
 </body>
 </html>
