@@ -50,6 +50,13 @@ let returnStatement = userDetox();
 
 console.log(returnStatement);*/
 
+
+function validateEmail(email) {
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  return emailRegex.test(email);
+}
+
+
 function newDiscount() {
   const originQuestion = prompt(
     "Inflation is on the rise, but we are lowering prices JUST FOR YOU! Want to save 20% on your next purchase? Type yes or no"
@@ -98,12 +105,34 @@ function newDiscount() {
   }
 }
 
-function validateEmail(email) {
-  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-  return emailRegex.test(email);
+
+
+function showStarRating() {
+  const rating = parseInt(prompt("What star rating would you give us? Type a number on a scale of 1-5"));
+
+  if (isNaN(rating) || rating < 1 || rating > 5) {
+    alert("Oops. Please enter a number between 1 and 5.");
+    return;
+  }
+
+  let stars = '';
+  const starImageSrc = 'Photos/star.jpg'; 
+
+  for (let i = 0; i < rating; i++) {
+    stars += `<img src="${starImageSrc}" alt="Star" />`;
+  }
+
+  document.write(`You rated us ${rating} star(s): ${stars}`);
 }
 
+
+
 newDiscount();
+
+showStarRating();
+
+
+
 
 
 
